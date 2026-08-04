@@ -2,6 +2,8 @@
 
 UKRI Gateway to Research MCP — every research grant awarded by the UK's seven research councils (EPSRC, MRC, BBSRC, NERC, ESRC, AHRC, STFC) plus Innovate UK: who was funded, for what, how much, and when. Keyless.
 
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
+
 ## Tools
 
 - `gtr_search_projects(query, funder?, status?, search_field?, limit?, page?)` — free-text search over UK grants; returns grant reference, title, status, funding council, grant category, lead department and funding period.
@@ -51,7 +53,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 1375+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -75,7 +77,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
