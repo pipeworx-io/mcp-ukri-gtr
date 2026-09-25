@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-ukri-gtr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "UKRI Gateway to Research (GtR) MCP — every grant awarded by the UK's seven",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-ukri-gtr": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ukri-gtr"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-ukri-gtr"
+    "url": "git+https://github.com/pipeworx-io/mcp-ukri-gtr.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-3912d6ba1f10684a87b8d941e86e7f092a865865453b7a1b020432a503eb3c70",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }

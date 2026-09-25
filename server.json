@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/ukri-gtr",
   "title": "Ukri Gtr",
   "description": "UKRI Gateway to Research (GtR) MCP — every grant awarded by the UK's seven",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/ukri-gtr",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ukri-gtr",
