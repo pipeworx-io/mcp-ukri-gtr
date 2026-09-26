@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ukri-gtr",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "UKRI Gateway to Research (GtR) MCP — every grant awarded by the UK's seven",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-3912d6ba1f10684a87b8d941e86e7f092a865865453b7a1b020432a503eb3c70",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-b39806ecffbeebc60f0c9d142ddc1ef360eae76f64bd14c95edd864023c71d48",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }
