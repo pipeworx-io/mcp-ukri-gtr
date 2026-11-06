@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ukri-gtr",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "UKRI Gateway to Research (GtR) MCP — every grant awarded by the UK's seven research councils plus Innovate UK: recipient, subject, award value, dates.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "ukri-gtr",
     "gatewaySlug": "ukri-gtr",
-    "sourceHash": "v1-12776b39d59efb630fe8ea1644c833e46a7dea5c1f8edbc8928e5c7ccd979723",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-8de2234507ad1d17c65b12f9589fe07d080ca7051c254a77b7cee2c0b6b17657",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }

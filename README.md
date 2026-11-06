@@ -2,7 +2,7 @@
 
 UKRI Gateway to Research MCP — every research grant awarded by the UK's seven research councils (EPSRC, MRC, BBSRC, NERC, ESRC, AHRC, STFC) plus Innovate UK: who was funded, for what, how much, and when. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1857+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -21,12 +21,12 @@ Two headers are mandatory and are set by the pack: `Accept: application/vnd.rcuk
 ## Data sources
 
 - API root: `https://gtr.ukri.org/gtr/api`
-- Projects: `https://gtr.ukri.org/gtr/api/projects?q=cancer&s=10&p=1`
-- Single project: `https://gtr.ukri.org/gtr/api/projects/{guid}`
+- Projects.
+- Single project.
 - Funds (award values): `https://gtr.ukri.org/gtr/api/funds/{guid}`
-- Organisations: `https://gtr.ukri.org/gtr/api/organisations?q=imperial+college&s=10&f=org.n`
-- Organisation portfolio: `https://gtr.ukri.org/gtr/api/organisations/{guid}/projects`
-- Publication outcomes: `https://gtr.ukri.org/gtr/api/outcomes/publications?q=cancer&s=10`
+- Organisations.
+- Organisation portfolio.
+- Publication outcomes.
 - Human-facing site: https://gtr.ukri.org
 
 ### Gotchas
@@ -83,7 +83,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1857+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
